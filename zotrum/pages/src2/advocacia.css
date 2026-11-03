@@ -66,7 +66,7 @@ html{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    body .sobre{
+     .sobre .container-sobre1{
         grid-template-columns: var(--cln);
         
     }
@@ -149,11 +149,15 @@ h3{
 }
 
 
-header{
+
+
+.container-header{
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:1.5rem;
+    max-width:1000px;
+    margin: 0 auto;
 }
 
 header p{
@@ -229,8 +233,10 @@ header p{
 }
 
 
-section{
+section > div{
     padding:clamp(3rem, 6vw, 6rem) 1.5rem;
+    max-width:1000px;
+    margin: 0 auto;
 }
 
 section p{
@@ -264,7 +270,7 @@ section a:hover{
     background-color:var(--cor-destaque);
 }
 
-.hero{
+.container-hero{
     display:grid;
     grid-template-columns:var(--cln);
     justify-content:center;
@@ -274,7 +280,7 @@ section a:hover{
 
 
 
-.container-hero h1{
+.texto-heroh1{
     margin:0;
 }
 
@@ -336,7 +342,7 @@ section a:hover{
     justify-content:center;
 }
 
-.sobre{
+.container-sobre1{
     display:grid;
     grid-template-columns:1fr;
     gap:60px;
@@ -423,6 +429,12 @@ section a:hover{
     display:grid;
     grid-template-columns:1fr;
     gap:4rem;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.FAQ-CTA > section{
+    padding:clamp(3rem, 5vw, 6rem) 1.5rem;
 }
 
 .FAQ details{
@@ -459,6 +471,11 @@ section a:hover{
 footer{
     padding: 60px 20px 20px;
     background-color:#f8fafc;
+}
+
+.container-footer-global{
+    max-width: 1000px;
+    margin:0 auto;
 }
 
 footer p, a, li{
