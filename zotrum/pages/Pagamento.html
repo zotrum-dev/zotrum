@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manutenção ativa — Seu Nome</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      line-height: 1.6;
+    }
+
+    .card {
+      background: #fff;
+      max-width: 560px;
+      width: 100%;
+      border-radius: 16px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+
+    .icon {
+      width: 64px;
+      height: 64px;
+      background: #e6f9ee;
+      color: #25d366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #111;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 15px;
+      margin-bottom: 28px;
+    }
+
+    .steps {
+      text-align: left;
+      background: #f9fafb;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+
+    .steps h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #888;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .steps ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .steps li {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 10px;
+      padding-left: 24px;
+      position: relative;
+    }
+
+    .steps li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #25d366;
+      font-weight: 700;
+    }
+
+    .steps li:last-child {
+      margin-bottom: 0;
+    }
+
+    .btn-whatsapp {
+      display: inline-block;
+      width: 100%;
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 16px 24px;
+      border-radius: 10px;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-whatsapp:hover {
+      background: #1ebe5b;
+      transform: translateY(-2px);
+    }
+
+    .note {
+      font-size: 13px;
+      color: #888;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    @media (max-width: 480px) {
+      .card { padding: 32px 20px; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon">✓</div>
+
+    <h1>Manutenção ativa!</h1>
+    <p class="subtitle">Obrigado pela confiança. Seu plano mensal já está ativo.</p>
+
+    <div class="steps">
+      <h2>O que está incluso</h2>
+      <ul>
+        <li>Suporte para ajustes e correções no site</li>
+        <li>Resposta em até <strong>24 horas úteis</strong></li>
+        <li>Backup e monitoramento do site</li>
+        <li>Renovação automática mensal</li>
+      </ul>
+    </div>
+
+    <div class="steps">
+      <h2>Como pedir suporte</h2>
+      <ul>
+        <li>Clique no botão abaixo para falar comigo no WhatsApp</li>
+        <li>Descreva o ajuste ou problema com o máximo de detalhes</li>
+        <li>Se possível, envie um print ou link da página</li>
+      </ul>
+    </div>
+
+    <a
+      class="btn-whatsapp"
+      href="https://wa.me/5511999999999?text=Oi!%20Meu%20plano%20de%20manuten%C3%A7%C3%A3o%20est%C3%A1%20ativo%20e%20quero%20solicitar%20um%20ajuste."
+      target="_blank"
+      rel="noopener"
+    >
+      Solicitar suporte no WhatsApp
+    </a>
+
+    <p class="note">
+      Se o pagamento não foi aprovado, aguarde alguns minutos ou me chame pelo WhatsApp. A cobrança é mensal e pode ser cancelada a qualquer momento.
+    </p>
+
+    <footer>
+      Rian · riansilvamenezes394@gmail.com
+    </footer>
+  </main>
+</body>
+</html>
