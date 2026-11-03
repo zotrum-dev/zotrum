@@ -678,12 +678,12 @@ section div {
 }
 
 .card-manutencao .pCardM2 {
-    padding-bottom:1.5rem;
+    padding-bottom:0.1rem;
     /* outline:1px solid black; */
 }
 
-.pCardM{
-    padding-bottom:1rem;
+.card-manutencao .pCardM{
+    padding-bottom:0.5rem;
 }
 
 
