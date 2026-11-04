@@ -614,6 +614,8 @@ section a:hover{
     padding: clamp(3rem, 5vw, 6rem) 1.5rem;
 }
 
+
+
 .FAQ details{
     grid-template-columns:1fr;
     padding:1.5rem;
