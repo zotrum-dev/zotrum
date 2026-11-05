@@ -460,7 +460,7 @@ section div {
 /* 2º Container: container-serviço da seção 2º */
 
 .Container-servico {
-    margin-top: 3rem;
+    margin-top: 10rem;
     padding: 0;
     box-shadow: none;
 }
@@ -564,7 +564,7 @@ section div {
 
  .cards1{
    /* outline:1px solid green; */
-   background-color:rgb(244, 244, 244);
+   background-color:rgb(255, 255, 255);
    list-style:none;
    border:1px solid  #e2e8f0;
    box-shadow:0 4px 12px rgb(0,0,0,0,12);
@@ -594,12 +594,12 @@ section div {
     
 }
 
-.card1 .p-essenc{
-    padding-bottom:1rem;
+.servico3 .p-essenc{
+    padding-bottom:0.1rem;
 }
 
-.card1 .p-compl{
-    padding-bottom:1rem;
+.servico3  .p-compl{
+    padding-bottom:0.1rem;
 }
 
 .cards1  p{
@@ -613,10 +613,7 @@ section div {
     
 }
 
-.cards1 .LinkS3{
-    
-    display:flex;
-}
+
 
 .cards1 a{
     
@@ -635,6 +632,34 @@ section div {
     border:3px solid #25D366;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     background-color:white;
+}
+
+.cards1 .negociar{
+    background-color:white;
+    border:1px solid #25D366;
+    color:#25D366;
+}
+
+.cards1 .negociar:hover{
+    background-color:#25D366;
+    color:white;
+    border:none;
+    outline:none;
+}
+
+.pagamento{
+    margin:auto;
+    font-size:14px;
+    color:#555;
+    line-height: 1.6;
+    text-align:center;
+    padding:20px;
+    border-radius:8px;
+    border:1px solid #eaeaea;
+}
+
+.pagamento p{
+    justify-self:center;
 }
 
 .manutencao{
@@ -671,7 +696,7 @@ section div {
 
 .card-manutencao > div{
     
-    background-color:rgb(244, 244, 244);
+    background-color:rgb(255, 255, 255);
     border:1px solid  #e2e8f0;
     box-shadow:0 4px 12px rgb(0,0,0,0,12);
     
@@ -737,6 +762,8 @@ section div {
     
 
 }
+
+
 
 .nota-rodape{
     font-size:0.875rem;
@@ -839,8 +866,7 @@ section div {
 .FAQ{
     display:grid;
     grid-template-columns:1fr;
-    
-    padding:1.5rem;
+    padding:0.5rem;
     gap:4rem;
     max-width:1000px;
     /* outline:1px solid red; */
@@ -980,7 +1006,7 @@ footer {
 .container-footer-global{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 35px;
 
 }
 
@@ -989,7 +1015,7 @@ footer {
     grid-template-columns:1fr;
     gap:40px;
     padding-bottom:6rem;
-    max-width:1100px;
+   
     text-align:center;
 }
 
