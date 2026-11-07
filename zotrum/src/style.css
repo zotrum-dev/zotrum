@@ -752,8 +752,9 @@ section div {
 
 
 
-.manutencao a{
+.card-manutencao a{
     display:flex;
+    align-self:stretch;
     justify-content:center;
     background-color:#25D366;
     padding:14px 28px;
