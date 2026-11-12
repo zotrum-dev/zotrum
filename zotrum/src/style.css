@@ -124,6 +124,10 @@ html {
        
     }
 
+    .container-video iframe{
+        height:450px;
+    }
+
     body .container-footer {
         grid-template-columns:var(--cln);
         text-align:left;
@@ -858,6 +862,44 @@ section div {
     border:none;
     color:white;
     transform: scale(1.03)
+}
+
+.container-video{
+    text-align: center;
+    padding:40px 20px;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 800px;
+    
+}
+
+.container-video p{
+    margin:auto auto 24px auto;
+    font-size:16px;
+
+}
+
+.btn-video{
+    display:inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ef4444;
+    color:white;
+    padding:14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+.btn-video:hover{
+    background-color: #dc2626;
+    transform: translateY(-2);
+    color:white;
+    outline:none;
 }
 
 /* 4º seção */
