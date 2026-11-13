@@ -480,8 +480,11 @@ section details{
 
 }
 
-
-
+ .icon {
+    stroke: #f8fafc;
+    width: 24px;
+    height: 24px;
+}
 .servico2 h2{
     text-align:center;
     margin-bottom:2rem;

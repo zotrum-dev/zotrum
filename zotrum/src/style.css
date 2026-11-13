@@ -84,6 +84,7 @@ html {
     section div {
 
 
+
     margin-bottom: 2rem;
     border-radius:0.5rem;
 
@@ -459,6 +460,12 @@ section div {
     margin:32px auto 0 auto;
     
   
+}
+
+.icon {
+    
+    width:24px;
+    height:24px;
 }
 
 /* 2º Container: container-serviço da seção 2º */
