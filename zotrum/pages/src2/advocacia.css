@@ -127,7 +127,11 @@ body a{
     font-size:0.875rem;
 }
 
-body 
+body svg{
+    width:24px;
+    height:24px;
+    color:#1e3a8a;
+}
 
 h1, h2, h3{
     font-family: 'Playfair Display', serif;
@@ -259,11 +263,12 @@ section a{
     border-radius:8px;
     color:white;
     font-weight: 700;
+    transition: transform 0.3s;
     
 }
 
 section a:hover{
-    transition: 0.3s;
+   
     transform:scale(1.05);
     background:var(--cor-fundo);
     color:var(--cor-texto-principal);
@@ -276,8 +281,22 @@ section a:hover{
     justify-content:center;
     align-items:center;
     gap:6rem;
+    animation-name:hero;
+    animation-duration: 4s;
+    transition: transform 0.3s;
 }
 
+@keyframes hero{
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 
 .texto-heroh1{
@@ -362,7 +381,9 @@ section a:hover{
     margin:0;
 }
 
-
+.sobre li{
+    color:blue;
+}
 
 .container-sobre-img img{
     width:100%;
@@ -398,10 +419,13 @@ section a:hover{
     border:1px solid var(--cor-borda);
     padding:32px;
     border-radius:4px;
-    
+
 }
 
-
+.container-atendimento svg{
+    width:32px;
+    height:32px;
+}
 
 .atendimento a{
     display:inline-block;

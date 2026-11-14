@@ -481,9 +481,9 @@ section details{
 }
 
  .icon {
-    stroke: #f8fafc;
+    stroke: black;
     width: 24px;
-    height: 24px;
+    height:24px;
 }
 .servico2 h2{
     text-align:center;
