@@ -342,8 +342,10 @@
                 <h2>Vamos colocar seu negócio na internet?</h2>
                 <p>Me chame no WhatsApp e conte o que você precisa. A conversa não tem compromisso.</p>
 
-                <form class=form-CTA>
-                    <input type="text" id="nome" placeholder="Seu nome" required>
+                <form class=form-CTA name="contato" method="post" data-netlify="true">
+                    <input name="nome" type="text" id="nome" placeholder="Seu nome" required>
+                    <input name="telefone" type="tel" id="telefone" placeholder="Seu Telefone" required>
+                   <input name="email" type="email" id="email" placeholder="Seu email" required>
 
                     <select name="" id="plano">
                         <option disabled selected value="">Qual plano te interessou?</option>
