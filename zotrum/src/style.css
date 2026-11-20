@@ -835,19 +835,12 @@ section div {
 
 .sobre3 p{
     font-size:1rem;
+    width:clamp(300px, 100%, 400px);
 }
 
-.p-adv{
-    padding-right:5rem;
-}
 
-.barbearia{
-    padding-bottom:1.8rem;
-}
 
-.div-personal h3{
-    padding-right:4rem;
-}
+
 
 .sobre3 a{
     border:3px solid green;
