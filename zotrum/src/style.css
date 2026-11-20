@@ -59,7 +59,7 @@ html {
     header .container-header{
     max-width:1000px;
     margin:0 auto;
-    padding-left:clamp(1px, 5vw, 3rem);
+    padding-left:clamp(1px, 5vw, 2rem);
     /* outline:1px solid red; */
 }
 
@@ -251,8 +251,9 @@ header{
 
 .hero2 {
 
-    box-shadow: var(--sombras);
-    padding: clamp(1rem, 3vw, 2rem);
+    
+    padding:0;
+
    
     
  
@@ -360,12 +361,7 @@ a {
 
 /* Expansão inverso geral de todas as seções */
 
-section > div{
-    padding: clamp(3rem, 6vw, 6rem) clamp(10px, 2vw, 20px);
-    max-width: 1000px;
-    margin: 0 auto;
 
-}
 
 
 
@@ -394,6 +390,7 @@ section div {
     padding:clamp(1rem, 3vw, 2rem);
     margin-bottom: 2rem;
     border-radius:0.5rem;
+    
   
 }
 
@@ -409,6 +406,8 @@ section div {
 /* 2º seção */
 
 /* 1º container Lista de serviço pertencente a 2º seção */
+
+
 
 .lista-servico p {
     font-size: clamp(1rem, 2vw, 18px);
